@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""PROJECT_NAME
+"""PROJECT_TITLE
 
 
 """
