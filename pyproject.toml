@@ -1,23 +1,25 @@
 [project]
 name = "PROJECT"
 version = "1.0"
-authors = [{name = "Alex C Warren", email = "alexcwarren.info@gmail.com"}]
+authors = [{name = "AUTHOR", email = "EMAIL"}]
 description = ""
 requires-python = ">= 3.8"
 dependencies = [
     "isort",
     "flake8",
+    "Flake8-pyproject",
     "black",
+    "pre-commit",
     "pytest",
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/alexcwarren/PROJECT"
+Repository = "PROJECT_REPO"
 
 [tool.flake8]
-max-line-length = 88
+max-line-length = 89
 ignore = ['E203', 'W503']
 
 [tool.black]
