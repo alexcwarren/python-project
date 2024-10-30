@@ -12,6 +12,8 @@ dependencies = [
     "pre-commit",
     "pytest",
     "mypy",
+    "pydocstyle",
+    "ruff",
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
