@@ -1,5 +1,5 @@
 [project]
-name = "PROJECT"
+name = "PROJECT_NAME"
 version = "1.0"
 authors = [{name = "AUTHOR", email = "EMAIL"}]
 description = ""
